@@ -16,7 +16,7 @@ body{
     flex-direction: row;
     align-items: center;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 30%;
 
 }
 
@@ -75,19 +75,8 @@ body{
 }
 
 
-h2{
-    margin: 50px;
-    font-size: 110%;
-}
-
-li{
-    margin-top:25px;
-    list-style: none;
-    
-}
-
 a{
-    text-decoration: none;
+   text-decoration: none;
     color: var(--cor-texto-secundario);
     max-width: 10px;
 }
@@ -100,6 +89,25 @@ a:hover{
 hr{
     max-width: 200px;
     margin-right: 20px;
-
 }
 
+h2{
+    margin: 50px;
+    font-size: 110%;
+}
+
+
+li{
+    margin-top:25px;
+    list-style: none;
+}
+
+
+#logo{
+    width: 200px;
+}
+
+
+.logo-e{
+    width: 10px;
+}
