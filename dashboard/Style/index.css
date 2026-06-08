@@ -1,90 +1,100 @@
-:root{
-    --cor-fundo: #000000;
-    --cor-card: #111111;
-    --cor-borda: #2a2a2a;
-    --cor-texto: #ffffff;
-    --cor-texto-secundario: #b3b3b3;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    background: #000000;
-    color: var(--cor-texto);
+header{
+    background: black;
+    color: greenyellow;
+
 }
 
-#sidebar{
+.nav{
+    height: 50px;
+}
+
+.nav-f{
     display: flex;
+<<<<<<< Updated upstream
     flex-direction: row;
     align-items: center;
     margin-top: 5%;
     margin-left: 30%;
 
+=======
+    justify-content: space-between;
+    padding: 0 18px;
+>>>>>>> Stashed changes
 }
 
-#sidebar,h1{
-    color: #ffffff;
+header h2 {
+    margin-top: 10px;
 }
 
-
-
-.pesquisa{
+.incone{
     display: flex;
-    flex-direction: row;
-    margin-left: 50%;
-    width: 30%;
+    gap: 10px
+
 }
 
-.pesquisa input{
-       width: 100%;
-    padding: 12px 12px 12px 40px;
+.incone i {
+    margin: 10px;
+    font-size: 150%;
+    transition: 0.3s ease;
+}
 
-    background: #111111;
-    border: 1px solid #2a2a2a;
-    border-radius: 10px;
+i:hover{
+    color: greenyellow;
+    transform: scale(1,2);
+}
 
+/*fim do hearder*/
+
+
+aside{
+    background: black;
     color: white;
-    outline: none;
-}
-
-.pesquisa i {
-    position: absolute;
-
-    top:50%;
-    left: 10px;
-
- transform: translateY(-50%);
-
-    color: #b3b3b3;
-}
-
-
-
-/* side bar final*/
-
-
-/*menu lateral*/
-
-.pai{
-    margin-top: 5%;
-}
-
-
-.filho{
-    border:  1px solid var(--cor-borda);
+    font-family: Arial, Helvetica, sans-serif;
     width: 200px;
     height: 500px;
 }
 
+<<<<<<< Updated upstream
 
 a{
    text-decoration: none;
     color: var(--cor-texto-secundario);
     max-width: 10px;
+=======
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.lateral{
+  margin-top: 90px;
+  padding: 0 20px;
+}
+
+aside li {
+    margin-top: 12px;
+    list-style: none;
+}
+
+aside a {
+    text-decoration: none;
+    color:greenyellow;
+    transition: .3s ease;
+>>>>>>> Stashed changes
 }
 
 a:hover{
-    color: var(--cor-texto);
+    color: white;
+    transform: scale(1,5);
 }
 
+<<<<<<< Updated upstream
 
 hr{
     max-width: 200px;
@@ -111,3 +121,21 @@ li{
 .logo-e{
     width: 10px;
 }
+=======
+aside hr {
+    margin-top: 10px;
+}
+
+/*fim do menu lateral */
+
+
+main{
+    background: #333;
+    flex: 1;
+}
+
+.card{
+        display: flex;
+
+}
+>>>>>>> Stashed changes
