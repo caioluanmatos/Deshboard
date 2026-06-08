@@ -1,82 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="../dashboard/Style/index.css">
+    <link rel="stylesheet" href="../dashboard/Style/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <title>Desbohrds</title>
+    <title>Dashboard</title>
 </head>
 <body>
+
     <header>
         <div class="nav">
             <div class="nav-f">
-                    <h2>Dashboard</h2>
+                <h2>Dashboard</h2>
 
-<<<<<<< Updated upstream
-    <!--Menu Lateral-->
-<aside>
-    <div class="pai">
-        <div class="filho">
-                <div class="logo-e">
-                    <img src="../dashboard/img/logo.png" alt="logo" id="logo">
+                <div class="icone">
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-circle-user"></i>
                 </div>
-            <ul>
-                <li><a href="#">Deshboard</a></li>
-                <li><a href="#">Revenue Analytics</a></li>
-                <li><a href="#">Journeys</a></li>
-                <li><a href="#">Performance</a></li>
-                <li><a href="#">Data Platform</a></li>
-                <hr>
-                <li><a href="#">Settings</a></li>
-                <li><a href="#">Help</a></li>
-                <br>
-                <hr>
-            </ul>
-=======
-                    <div class="incone">
-                        <i class="fa-solid fa-bell"></i>
-                        <i class="fa-solid fa-circle-user"></i>
-                    </div>
             </div>
->>>>>>> Stashed changes
         </div>
     </header>
-    <!--fim do Header-->
-    
-        <aside>
-            <div class="menu">
-                <div class="lateral">
-                        <ul>
-                            <li><a href="#">Dashboard</a></li>
-                            <li><a href="#">Vendas</a></li>
-                            <li><a href="#">Estoque</a></li>
-                            <li><a href="#">Orçamento</a></li>
-                            <hr>
-                            <li><a href="#">Configuração</a></li>
-                            <li><a href="#">Conta</a></li>
 
-                        </ul>
-                </div>
+    <!-- Menu lateral -->
+     <div class="container">
+    <aside>
+        <div class="menu">
+            <div class="lateral">
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Vendas</a></li>
+                    <li><a href="#">Estoque</a></li>
+                    <li><a href="#">Orçamento</a></li>
+                    <hr>
+                    <li><a href="#">Configuração</a></li>
+                    <li><a href="#">Conta</a></li>
+                </ul>
             </div>
-        </aside>
+        </div>
+    </aside>
 
-        <!--Fim do aside-lateral-->
-            <main>
-                <div class="card">
-                    <h3>Vendas</h3>
-                    <p>R$ 8,000</p>
-                </div>
+    <!-- Conteúdo principal -->
+    <main>
+        <div class="card">
+            <h3>Vendas</h3>
+            <p>R$ 8.000</p>
+        </div>
 
-                <div class="card">
-                    <h3>Estoque</h3>
-                    <p>R$ 8,000</p>
-                </div>
+        <div class="card">
+            <h3>Estoque</h3>
+            <p>R$ 8.000</p>
+        </div>
 
-                <div class="card">
-                    <h3>Orçamento</h3>
-                    <p>R$ 8,000</p>
-                </div>
-            </main>
+        <div class="card">
+            <h3>Orçamento</h3>
+            <p>R$ 8.000</p>
+        </div>
+    </main>
+     <div class="graficos">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../dashboard/Javascript/index.js"></script>
 </body>
 </html>
