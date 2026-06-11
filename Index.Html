@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dashboard/Style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <header>
+        <div class="nav">
+            <div class="nav-f">
+                <h2>Dashboard</h2>
+
+                <div class="icone">
+                    <button id="tema">🌙</button>
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu lateral -->
+     <div class="container">
+    <aside>
+        <div class="menu">
+            <div class="lateral">
+                <ul>
+                    <li><a href="#" onclick="abriDashbaord()">Dashboard</a></li>
+                    <li><a href="#" onclick="vendas()">Vendas</a></li>
+                    <li><a href="#" onclick="Estoque()">Estoque</a></li>
+                    <li><a href="#" onclick="Orçamento()">Orçamento</a></li>
+                    <hr>
+                    <li><a href="#" onclick="Configuração()">Configuração</a></li>
+                    <li><a href="#" onclick="Conta()">Conta</a></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Conteúdo principal -->
+        <!-- Conteúdo principal -->
+        <main>
+            <!-- Container dos Cards (Ficam lado a lado) -->
+            <div class="cards-wrapper">
+                <div class="card">
+                    <h3>Vendas</h3>
+                    <p>R$ 30.000</p>
+                </div>
+
+                <div class="card">
+                    <h3>Estoque</h3>
+                    <p>R$ 100.000</p>
+                </div>
+
+                <div class="card">
+                    <h3>Orçamento</h3>
+                    <p>R$ 12.000</p>
+                </div>
+
+                <div class="card">
+                    <h3>Cliente</h3>
+                    <p>55.000</p>
+                </div>
+            </div>
+
+            <!-- Container do Gráfico (Fica abaixo dos cards) -->
+            <div class="graficos">
+                <canvas id="myChart"></canvas>
+            </div>
+        </main>
+    </div>
+</body>
+
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../dashboard/Javascript/painel.js"></script>
+    <script  src="./dashboard/Javascript/Fun.js"></script>
+</html>
