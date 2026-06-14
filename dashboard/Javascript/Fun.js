@@ -1,3 +1,4 @@
+
 function abriDashbaord () {
     console.log('deu certo')
 }
@@ -24,4 +25,16 @@ function Configuração () {
 
 function Conta () {
     console.log('deu certo')
+}
+
+function btn () {
+
+    const but = document.querySelector("body")
+
+            if(but.style.background ==='black'){
+                    but.style.background = 'white'
+            }else {
+                    but.style.background = 'black'
+            }
+
 }
