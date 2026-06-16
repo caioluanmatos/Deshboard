@@ -79,6 +79,7 @@ aside{
     width: 220px;
     min-height: calc(100vh - 60px);
     padding: 20px;
+    border: 2px solid  #4B5320;;
 }
 
 ul{
@@ -91,7 +92,7 @@ li{
 
 a{
     text-decoration: none;
-    color: white;
+    color: #4B5320;
     transition: 0.3s;
 }
 
@@ -164,4 +165,96 @@ main {
     position: relative; 
     margin-top:20px;
      box-shadow: 0 0 10px #adff2f;
+}
+
+
+
+
+#psq{
+    border:  2px solid #adff2f;
+    border-radius: 10px;
+    padding: 0 18px;
+}
+
+
+/* javascript */
+
+.card-dashboard{
+     background: #181818;
+    width: 220px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 12px;
+    border-left: 5px solid #adff2f;
+    box-shadow: 0 8px 24px rgba(0,0,0,.5);
+}
+
+.card-dashboard:hover {
+    transform: translateY(-5px); 
+    }
+
+.card-dashboard h3 {
+   color: #adff2f;
+    margin-bottom: 10px;
+}
+
+
+.card-dashboard p {
+      font-size: 18px;
+    font-weight: bold;
+    color: white;
+} 
+
+
+
+.js-cards{
+    display: flex;
+    gap: 20px;
+   flex-wrap: wrap;
+}
+
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #181818;
+    border-radius: 10px;
+}
+
+th{
+    background: #adff2f;
+    color: black;
+    padding: 12px;
+    text-align: left;
+}
+
+td{
+    padding: 12px;
+    border-bottom: 1px solid #333;
+    color: white;
+}
+
+tr:hover{
+    background: #222;
+}
+
+
+#tex1-js{
+    margin-top: 15px;
+    color: #4B5320;
+}
+
+.card-dashboard-mes{
+    margin-top:10px;
+       background: #181818;
+    width: 220px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 12px;
+    border-left: 5px solid #adff2f;
+    box-shadow: 0 8px 24px rgba(0,0,0,.5);
+    color: #4B5320;
 }

@@ -15,11 +15,11 @@
                 <h2>Dashboard</h2>
 
                 <div class="icone">
-                    <button id="tema" onclick="btn()">🌙</button>
                     <i class="fa-solid fa-bell"></i>
                     <i class="fa-solid fa-circle-user"></i>
                 </div>
                 <input type="text" placeholder="Pesquisa" id="psq">
+                <button id="tema" onclick="dark()">🌙</button>
             </div>
         </div>
     </header>
@@ -30,13 +30,13 @@
         <div class="menu">
             <div class="lateral">
                 <ul>
-                    <li><a href="#" onclick="abriDashbaord()">Dashboard</a></li>
-                    <li><a href="#" onclick="vendas()">Vendas</a></li>
-                    <li><a href="#" onclick="Estoque()">Estoque</a></li>
-                    <li><a href="#" onclick="Orçamento()">Orçamento</a></li>
+                    <li><a href="#" onclick="abriDashbaord()" id="links">Dashboard</a></li>
+                    <li><a href="#" onclick="vendas()" id="links">Vendas</a></li>
+                    <li><a href="#" onclick="estoque()" id="links">Estoque</a></li>
+                    <li><a href="#" onclick="orçamento()" id="links">Orçamento</a></li>
                     <hr>
-                    <li><a href="#" onclick="Configuração()">Configuração</a></li>
-                    <li><a href="#" onclick="Conta()">Conta</a></li>
+                    <li><a href="#" onclick="configuração()"  id="links">Configuração</a></li>
+                    <li><a href="#" onclick="conta()" id="links">Conta</a></li>
                 </ul>
             </div>
         </div>
